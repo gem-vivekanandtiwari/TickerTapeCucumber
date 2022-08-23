@@ -1,0 +1,25 @@
+{
+  "environment": "prod",
+  "projectName": "tickertape",
+  "reportName": "tickertape Report",
+  "token": "Bearer 5a04138da05dcd31f23abe52acff8c3780445d025fad35b4f1a7c7abbdea353c",
+  "gemjarUserName": "akash.garg",
+  "gemjarToken": "b0a8d2a9-148a-4b8d-aace-43b423cc003d1656932497567",
+  "gemjarSubID": "test_id",
+  "glueCode": "com.qa.gemini.ticker.stepdefinition",
+  "beta": {
+    "browserName": "chrome",
+    "launchUrl": "https://www.tickertape.in/",
+    "browserTimeout": 50,
+    "Users": "https://gorest.co.in/public/v2/users",
+    "google_url" : "https"
+  },
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://www.tickertape.in/",
+    "browserTimeout": 50,
+    "Users": "https://gorest.co.in/public/v2/users",
+    "google_url" : "https"
+
+  }
+}
